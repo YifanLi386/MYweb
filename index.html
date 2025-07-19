@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yifan Li | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-mode">
+
+<div id="loader">
+  <h1>
+    <span>Y</span><span>i</span><span>f</span><span>a</span><span>n</span>
+    <span>L</span><span>i</span>
+  </h1>
+</div>
+
+<header>
+  <div class="hamburger">&#9776;</div>
+  <div class="logo">Yifan Li</div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+<label class="switch">
+<input type="checkbox" id="theme-toggle">
+<span class="slider"></span>
+</label>
+
+</header>
+
+
+
+
+<section id="home" class="hero" style="padding-top:120px;">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h2>Hello, I’m Yifan Li</h2>
+      <p>A passionate computer science student with strong problem-solving skills and a deep interest in web development and algorithms. I enjoy building responsive websites, creating elegant solutions to complex problems, and continuously learning new technologies.</p>
+    </div>
+    <img src="img/profile.jpg" alt="Profile Picture" class="hero-img">
+  </div>
+</section>
+
+
+
+
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am currently focusing on mastering web development and improving my knowledge of software engineering principles. My experience includes working with HTML, CSS, JavaScript, and building dynamic, user-friendly interfaces.</p>
+  <p>Outside of coding, I have over 1.5 years of experience in powerlifting, achieving personal bests of 315 lb squat, 255 lb bench press, and 385 lb deadlift, and I am still progressing. My long-term goal is to become a skilled full-stack developer and contribute to impactful projects that make a difference.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <img src="img/skills/html.png" alt="HTML">
+      <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" class="about-btn">About</a>
+    </div>
+
+    <div class="skill-card">
+      <img src="img/skills/css.png" alt="CSS">
+      <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="about-btn">About</a>
+    </div>
+
+    <div class="skill-card">
+      <img src="img/skills/javascript.png" alt="JAVASCRIPT">
+      <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" class="about-btn">About</a>
+    </div>
+
+    <div class="skill-card">
+      <img src="img/skills/python.png" alt="PYTHON">
+      <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" class="about-btn">About</a>
+    </div>
+
+    <div class="skill-card">
+      <img src="img/skills/java.png" alt="JAVA">
+      <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank" class="about-btn">About</a>
+    </div>
+
+    <div class="skill-card">
+      <img src="img/skills/cpp.png" alt="CPP">
+      <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank" class="about-btn">About</a>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="projects" class="gallery">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="img/algorithms/eight_queens.png" alt="Eight Queens Problem">
+      <h3>Eight Queens Problem</h3>
+      <p>Backtracking algorithm to place 8 queens without conflicts.</p>
+    </div>
+    <div class="card">
+      <img src="img/algorithms/tower_of_hanoi.png" alt="Tower of Hanoi">
+      <h3>Tower of Hanoi</h3>
+      <p>Recursive solution for moving disks across rods.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section id="hobbies">
+  <h2>Hobbies</h2>
+  <div class="hobbies-grid">
+    <div class="hobby-card">
+      <h3><i class="fas fa-dumbbell"></i> Powerlifting</h3>
+      <p>1.5 years of experience.<br>
+      Current PRs:<br>
+      Squat: 315 lb | Bench: 255 lb | Deadlift: 385 lb.<br>
+      Still progressing!</p>
+    </div>
+    <div class="hobby-card">
+      <h3><i class="fas fa-book"></i> Reading</h3>
+      <p>I enjoy reading books on technology, self-improvement, and fitness.</p>
+    </div>
+    <div class="hobby-card">
+      <h3><i class="fas fa-code"></i> Programming</h3>
+      <p>I love coding and building web applications, exploring new technologies.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="form-response" style="text-align:center;margin-top:10px;color:var(--accent-color);"></p>
+
+  <div class="contact-icons">
+    <a href="mailto:yifan.li@example.com" class="email-icon" title="Email Me">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+</section>
+
+
+<footer>
+  <p>© 2025 Yifan Li. All Rights Reserved.</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
